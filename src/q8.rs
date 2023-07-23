@@ -1,7 +1,7 @@
 //! **Filter even numbers**: Write a function that takes an iterator over integers and
 //! returns a new iterator that yields only the even numbers. Test your function with
 //! a range of numbers and a vector of integers.
-
+#[allow(dead_code)]
 fn filter_even_nos<I: Iterator<Item = u32>>(iter: I) -> impl Iterator<Item = u32> {
     iter.filter(|&x| x % 2 == 0)
 }
