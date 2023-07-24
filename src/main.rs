@@ -1,6 +1,10 @@
 //! Run all the modules from here.
 
 mod q1;
+mod q10;
+mod q11;
+mod q12;
+mod q13;
 mod q2;
 mod q3;
 mod q4;
@@ -8,5 +12,9 @@ mod q5;
 mod q6;
 mod q7;
 mod q8;
-
-fn main() {}
+mod q9;
+fn main() {
+    q11::main();
+    q12::main();
+    q13::main();
+}
