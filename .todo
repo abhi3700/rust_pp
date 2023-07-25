@@ -1,6 +1,17 @@
 + Borrowing & Ownership
 + filter
 :+ iterator
-- Error handling
+  - https://app.clickup.com/t/85ztkkd4w
+:+ fold
+  + Write a function that takes an integer n as input and returns the nth Fibonacci number. Use an iterative algorithm to implement the function.
+  - Write a function that takes an integer n as input and returns a vector containing the first n Fibonacci numbers.
+  - Write a function that takes an integer n as input and returns the sum of the first n Fibonacci numbers.
+  - Write a function that takes an integer n as input and returns the product of the first n Fibonacci numbers.
+  - Write a function that takes an integer n as input and returns the nth Lucas number. The Lucas numbers are similar to the Fibonacci numbers, but start with 2 and 1 instead of 0 and 1.
+  - Write a function that takes an integer n as input and returns a vector containing the first n Lucas numbers.
+  - Write a function that takes an integer n as input and returns the sum of the first n Lucas numbers.
+  - Write a function that takes an integer n as input and returns the product of the first n Lucas numbers.
+
+Write a function that takes an integer n as input and returns the ratio of the nth Fibonacci number to the nth Lucas number.- Error handling
 - Struct
 - Enum
