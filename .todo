@@ -11,7 +11,35 @@
   - Write a function that takes an integer n as input and returns a vector containing the first n Lucas numbers.
   - Write a function that takes an integer n as input and returns the sum of the first n Lucas numbers.
   - Write a function that takes an integer n as input and returns the product of the first n Lucas numbers.
+  - Write a function that takes an integer n as input and returns the ratio of the nth Fibonacci number to the nth Lucas number.- Error handling
 
-Write a function that takes an integer n as input and returns the ratio of the nth Fibonacci number to the nth Lucas number.- Error handling
+- From/Into Implementations
+  Here are some real-world practice problems based on the `TryFrom` and `From` concepts in Rust:
+
+  - **Parsing user input**: Create a program that takes user input as a string and tries to convert it into different types (e.g., integers, floats, or custom types). Use `TryFrom` to handle potential errors during the conversion process.
+
+  - **Temperature conversion**: Implement a `Temperature` struct with a `Celsius` and `Fahrenheit` variant. Use `From` to convert between the two temperature scales infallibly, and `TryFrom` to handle potential errors when parsing user input.
+
+  - **URL parsing**: Create a `Url` struct that can parse and store different components of a URL (e.g., scheme, domain, path). Use `TryFrom` to handle potential errors during the parsing process, and `From` to convert between different URL representations (e.g., a string and a struct).
+
+  - **File format conversion**: Implement a program that can convert between different file formats (e.g., CSV, JSON, XML). Use `TryFrom` to handle potential errors during the conversion process, and `From` to convert between different representations of the data (e.g., a string and a struct).
+
+  - **Color conversion**: Implement a `Color` struct with different color models (e.g., RGB, HSL, CMYK). Use `From` to convert between the color models infallibly, and `TryFrom` to handle potential errors when parsing user input.
+
+  For each problem, consider implementing both `TryFrom` and `From` traits as needed, and use the `Result` enum to handle errors gracefully. These practice problems will help you understand when to use `TryFrom` and `From` in real-world scenarios and improve your Rust programming skills.
+
+- Result
+  - **Parse a floating-point number**: Write a function that takes a string and tries to parse it into a floating-point number. Use `Result` to handle potential errors, such as non-numeric characters in the input or an empty string.
+
+  - **Find the square of a number**: Write a function that takes an integer and returns the square of the number. Use `Result` to handle potential errors, such as integer overflow.
+
+  - **Validate a username**: Write a function that takes a string and checks if it's a valid username (e.g., contains only alphanumeric characters and is between 3 and 20 characters long). Use `Result` to return an error if the input is not a valid username.
+
+  - **Parse a date**: Write a function that takes a string and tries to parse it into a date (e.g., "YYYY-MM-DD"). Use `Result` to handle potential errors, such as an invalid date format or an out-of-range date.
+
+  - **Calculate the area of a rectangle**: Write a function that takes two integers (width and height) and returns the area of a rectangle. Use `Result` to handle potential errors, such as negative input values or integer overflow.
+
+  For each problem, consider using the `Result` enum to handle errors gracefully and provide informative error messages. These practice problems will help you understand how to use `Result` effectively in various scenarios and improve your Rust programming skills.
+
 - Struct
 - Enum

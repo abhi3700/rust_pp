@@ -1,4 +1,4 @@
-//! Using `.fold()`
+//! Using `.fold()`, fibonacci recursion/iteration
 
 use std::collections::HashMap;
 
